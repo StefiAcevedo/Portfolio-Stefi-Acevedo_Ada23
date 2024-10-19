@@ -286,15 +286,14 @@ nav a:hover{
     justify-content: space-between
 }
 .contacto-footer {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+.datos-contacto-footer {
     color: #FFFFFF;
     margin-top: 16px;
-}
-.redes-footer {
-    margin-top:16px;
-    padding: 0;
-    gap: 16px;
-    display: flex;
-    justify-content: left;
 
 }
+
 /* check con github  */
