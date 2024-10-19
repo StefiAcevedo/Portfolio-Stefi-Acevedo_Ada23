@@ -293,7 +293,10 @@ nav a:hover{
 .datos-contacto-footer {
     color: #FFFFFF;
     margin-top: 16px;
-
+}
+.gracias-por-visitar {
+    align-items: center;
+    padding-top:  8px;
 }
 
 /* check con github  */
