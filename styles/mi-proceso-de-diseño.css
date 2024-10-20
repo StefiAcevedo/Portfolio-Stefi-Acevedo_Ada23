@@ -1,0 +1,22 @@
+/* elementos proceso de diseño */
+.proceso-de-diseño{
+    background-color: #F8F8F8;
+    margin: 0px;
+    padding-right: 260px;
+    padding-left: 120px;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    background-image: url(/img/proceso-de-diseño-background.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+.titulos-proceso-de-diseño {
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+}

@@ -1,0 +1,17 @@
+/* elementos sobre-mi */
+.sobre-mi{
+    background-color: #32AA9D;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 52px;
+    padding-bottom: 51px;
+    background-image: url(/img/background-sobre-mi.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}

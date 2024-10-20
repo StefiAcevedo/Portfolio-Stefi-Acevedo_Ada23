@@ -1,0 +1,16 @@
+/* elementos mis-proyectos */
+.mis-proyectos{
+    background-color: #25086C;
+    color: #FFFFFF;
+    padding-right: 180px;
+    padding-left: 120px;
+    padding-top: 86px;
+    padding-bottom: 85px;
+    background-image: url(/img/mis-proyectos-background.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
