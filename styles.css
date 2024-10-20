@@ -12,8 +12,8 @@ body{
     font-family: Plus Jakarta Sans;
     margin: 0;
     background-color:#F8F8F8;
-    
 }
+
 /* colores generales */
 .neutral-negro{
     color: #212121;
@@ -65,18 +65,18 @@ h2 {
     margin: 0;
 }
 h3 {
-    font-size: 32px;
     font-weight: 200;
     color: #FFFFFF;
     text-align: left;
     margin: 0;
 }
 h4 {
-    font-size: 20px;
     font-weight: 400;
     text-align: left;
     margin: 0;
 }
+
+/* textos destacados */
 .texto-neutral-negro {
     color: #212121;
 }
@@ -89,6 +89,8 @@ h4 {
 .titulos-destacado-blanco {
     color: #FFFFFF;
 }
+
+/* estilos de parrafo */
 .parrafo-general-texto-blanco{
     width: 592px;
     color: #FFFFFF;
