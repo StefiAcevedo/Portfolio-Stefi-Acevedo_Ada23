@@ -1,0 +1,28 @@
+/* elementos nav */
+nav{ 
+    color: #212121;
+    background-color: #FFFFFF;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul { /* esto lo fui solucionando armando dif clases, no se si esta ok*/
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin: 24px;
+    padding: 0;
+}
+nav a{
+    color: #212121;
+    text-decoration: none;
+}
+nav a:hover{ 
+    color: #ED325F;
+    text-decoration: none;
+}
