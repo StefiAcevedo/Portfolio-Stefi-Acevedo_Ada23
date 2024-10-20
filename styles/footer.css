@@ -69,15 +69,17 @@
         display: flex;
         flex-direction: row;
     }
+    .contacto-footer {
+        display: flex;
+        gap: 72px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
     .datos-contacto-footer {
         color: #FFFFFF;
         margin-top: 16px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: left;
-        margin-right: 0;
-        padding-left: 0;
+        gap: 8px;
     }
     .gracias-por-visitar {
         align-items: flex-start;
@@ -102,6 +104,11 @@
         display: flex;
         text-align: center;
         justify-content: space-between;
+    }
+    .titulo-contacto {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
     }
     .contacto-footer {
         display: flex;
