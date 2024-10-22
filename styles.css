@@ -7,6 +7,10 @@
 @import url(/styles/formulario.css);
 @import url(/styles/footer.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Estilos generales */
 body{
     font-family: Plus Jakarta Sans;
