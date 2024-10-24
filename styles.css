@@ -76,7 +76,6 @@ h3 {
 }
 h4 {
     font-weight: 400;
-    text-align: left;
     margin: 0;
 }
 
@@ -84,23 +83,38 @@ h4 {
 .texto-neutral-negro {
     color: #212121;
 }
-.texto-destacado-fucsia {
-    color: #ED325F;
-}
-.titulos-destacado-amarillo {
-    color: #FFF27F;
-}
-.titulos-destacado-blanco {
-    color: #FFFFFF;
-}
 
-/* estilos de parrafo */
-.parrafo-general-texto-blanco{
-    width: 592px;
-    color: #FFFFFF;
-}
-.parrafo-general-texto-negro{
-    width: 592px;
+.titulos-regular-sm-negro {
+    font-size: 24px;
+    font-weight: 400;
     color: #212121;
 }
+.titulos-regular-sm-blanco {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+.titulos-regular-md-blanco {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.titulos-semibold-amarillo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF27F;
+}
+.titulos-semibold-md-amarillo {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFF27F;
+}
+.titulos-semibold-fucsia {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ED325F;
+}
+
+
 
