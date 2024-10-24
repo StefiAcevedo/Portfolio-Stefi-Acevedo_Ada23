@@ -62,11 +62,9 @@ h1 {
     margin: 0;
 }
 h2 {
-    font-size: 32px;
-    font-weight: 600;
-    color: #212121;
-    text-align: left;
+    font-weight: 400;
     margin: 0;
+    font-size: 24px; /* Tamaño de fuente para móvil */
 }
 h3 {
     font-weight: 200;
@@ -84,32 +82,24 @@ h4 {
     color: #212121;
 }
 
-.titulos-regular-sm-negro {
+.titulos-regular-negro {
     font-size: 24px;
     font-weight: 400;
     color: #212121;
 }
-.titulos-regular-sm-blanco {
+.titulos-regular-blanco {
     font-size: 24px;
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
 }
-.titulos-regular-md-blanco {
-    font-size: 32px;
-    font-weight: 400;
-    color: #FFFFFF;
-}
+
 .titulos-semibold-amarillo {
     font-size: 24px;
     font-weight: 600;
     color: #FFF27F;
 }
-.titulos-semibold-md-amarillo {
-    font-size: 32px;
-    font-weight: 600;
-    color: #FFF27F;
-}
+
 .titulos-semibold-fucsia {
     font-size: 24px;
     font-weight: 600;

@@ -6,7 +6,7 @@
     padding-left: 16px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: url(/img/background-formulario.svg);
+    background-image: url(/img/background-formulario-mobile.svg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -38,10 +38,19 @@
     flex-direction: column;
     align-items: center;
 }
-.inputs-formulario{
-    margin-top: 24px;
+.titulo-bloque-de-inputs {
+    color: #FFFFFF;
+    padding-bottom: 24px;
 }
+
 /* inputs */
+.bloque-de-inputs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 288px;
+}
 .label {
     font-size: 12px;
     font-weight: 200;
@@ -58,21 +67,9 @@
     font-size: 16px;
     outline: none;
     height: 48px;
+    width: 288px;
 }
-.input-nombre-apellido {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0;
-    gap: 16px;
-}
-.input-mensaje {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0;
-    gap: 16px;
-}
+
 .boton-submit{
     background-color: #25086C;
     font-size: 20px;
@@ -82,67 +79,69 @@
     padding-bottom: 8px;
     border-radius: 16px;
     margin-top: 24px;
-    margin-left: 52px;
-    margin-right: 52px;
     border-color: #25086C;
-    color:#FFFFFF
+    color:#FFFFFF;
+    width: 288px;
 }
 
 /* todos los elementos tablet 768-1024 -------------------------------------------------------------------*/
 @media (min-width: 768px) {
     .formulario{
         background-color: #7A77D8;
-        padding-right: 60px;
-        padding-left: 60px;
+        padding-right: 116px;
+        padding-left: 116px;
         padding-top: 60px;
-        padding-bottom: 60px;
-        background-image: url(/img/background-formulario.svg);
-        background-position: center;
-        background-size: cover;
+        padding-bottom: 40px;
+        background-image: url(/img/background-formulario-tablet.svg);
+    }
+    .hablemos-de-tu-proyecto {
         display: flex;
-        justify-content: space-between;
-        align-items: top;
-        
+        flex-direction: column;
+        align-items: center;
     }
-    /* titulos */
-
     /* estilos de parrafo */
-    .parrafos-formulario-blanco{
-        width: 443px;
-        color: #FFFFFF;
+    .parrafos-formulario-blanco {
+        width: 536px;
+        font-size: 20px;
     }
-    .parrafos-formulario-negro{
-        width: 443px;
-        color: #212121;
+    /* titulo */
+    .hablemos-de-tu-proyecto h2 {
+        font-weight: 600;
+        font-size: 32px; /* font size para pantallas grandes */
+        margin: 0;
     }
+    /* -------- */
     .redes-formulario {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         gap: 16px;
-        margin-top:80px;
+        margin-top:64px;
+    }
+    /* contenedor-estamos-en-contacto */
+    .contenedor-estamos-en-contacto {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-bloque-de-inputs {
+        color: #FFFFFF;
+        padding-bottom: 24px;
+    }
+    
+    /* inputs */
+    .bloque-de-inputs {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 444px;
     }
     .label {
         font-size: 12px;
         font-weight: 200;
         color: #FFFFFF;
         margin-bottom: 8px;
-    }
-    .input-nombre-apellido {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 0;
-        gap: 16px;
-    }
-    .input-mensaje {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 0;
-        gap: 16px;
-    }
-    .inputs{
-        margin-top: 24px;
     }
     .input[type="text"] {
         width: 100%;
@@ -154,21 +153,13 @@
         font-size: 16px;
         outline: none;
         height: 48px;
+        width: 444px;
     }
     .boton-submit{
-        background-color: #25086C;
-        font-size: 20px;
-        padding-left: 16px ;
-        padding-right: 16px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        border-radius: 16px;
-        margin-top: 24px;
-        border-color: #25086C;
-        color:#FFFFFF
+        width: 190px;
     }
-
 }
+
 
 /* todos los elementos desktop 1024 -------------------------------------------------------------------*/
 @media (min-width: 1024px){
@@ -182,38 +173,58 @@
         background-position: center;
         background-size: cover;
         display: flex;
-        justify-content: space-between;
-        align-items: top;
-        
+        flex-direction: row;
+    
     }
+
+    .hablemos-de-tu-proyecto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* estilos de parrafo */
+    .parrafos-formulario-blanco {
+        width: 536px;
+        font-size: 20px;
+    }
+    /* titulo */
+    .hablemos-de-tu-proyecto h2 {
+        font-weight: 600;
+        font-size: 32px; /* font size para pantallas grandes */
+        margin: 0;
+    }
+    /* -------- */
     .redes-formulario {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         gap: 16px;
-        margin-top:80px;
+        margin-top:64px;
+    }
+    /* contenedor-estamos-en-contacto */
+    .contenedor-estamos-en-contacto {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-bloque-de-inputs {
+        color: #FFFFFF;
+        padding-bottom: 24px;
+    }
+    
+    /* inputs */
+    .bloque-de-inputs {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 444px;
     }
     .label {
         font-size: 12px;
         font-weight: 200;
         color: #FFFFFF;
         margin-bottom: 8px;
-    }
-    .input-nombre-apellido {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 0;
-        gap: 16px;
-    }
-    .input-mensaje {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 0;
-        gap: 16px;
-    }
-    .inputs{
-        margin-top: 24px;
     }
     .input[type="text"] {
         width: 100%;
@@ -225,17 +236,17 @@
         font-size: 16px;
         outline: none;
         height: 48px;
+        width: 444px;
     }
+
     .boton-submit{
-        background-color: #25086C;
-        font-size: 20px;
-        padding-left: 16px ;
-        padding-right: 16px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        border-radius: 16px;
-        margin-top: 24px;
-        border-color: #25086C;
-        color:#FFFFFF
+        width: 190px;
+    }
+    .input-nombre-apellido {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        gap: 16px;
     }
 }
