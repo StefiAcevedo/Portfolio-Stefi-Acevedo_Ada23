@@ -174,24 +174,28 @@
         background-size: cover;
         display: flex;
         flex-direction: row;
-    
+        justify-content: space-between;
     }
 
     .hablemos-de-tu-proyecto {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     /* estilos de parrafo */
     .parrafos-formulario-blanco {
-        width: 536px;
+        width: 419px;
         font-size: 20px;
+        text-align: left;
+        
     }
     /* titulo */
     .hablemos-de-tu-proyecto h2 {
         font-weight: 600;
         font-size: 32px; /* font size para pantallas grandes */
         margin: 0;
+        text-align: left;
     }
     /* -------- */
     .redes-formulario {
@@ -202,14 +206,15 @@
     }
     /* contenedor-estamos-en-contacto */
     .contenedor-estamos-en-contacto {
-        padding-top: 40px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        padding-top: 0px;
     }
-    .titulo-bloque-de-inputs {
+    .titulo-bloque-de-inputs h2 {
         color: #FFFFFF;
-        padding-bottom: 24px;
+        padding-bottom: 32px;
+        text-align: left;
     }
     
     /* inputs */
@@ -217,7 +222,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         width: 444px;
     }
     .label {
@@ -242,11 +247,5 @@
     .boton-submit{
         width: 190px;
     }
-    .input-nombre-apellido {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 0;
-        gap: 16px;
-    }
+   
 }
