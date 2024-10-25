@@ -61,15 +61,20 @@
     </section>
     <section class="sobre-mi"><!-- sección sobre mi -->
         <div><!-- bloque de textos -->
-            <div class="titulos-proceso-de-diseño">
-                <h2 class="titulos-destacado-amarillo">Sobre mí</h2>
+            <div>
+                <h2 titulos-semibold-amarillo>Sobre mí</h2>
             </div>
             <div class="parrafo-general-texto-blanco"><!-- cambiar textos -->
                 <p><h4>Cada proyecto posee su propia singularidad, pero siempre me comprometo con un proceso fundamental en mi metodología de trabajo.</h4></p>
                 <p><h4>Sin embargo, este proceso rara vez sigue una línea recta, ya que los pasos son revisados minuciosamente en múltiples ocasiones antes de llegar a la entrega final.</h4></p>
             </div>
         </div>
-        <img src="img/imagen-sobre-mi.png" alt="bocetos de diferentes proyectos">
+        <picture><!-- cambia la imagen según la media :) -->
+            <source srcset="img/sobre-mi-desktop.png" media="(min-width: 1024px)">
+            <source srcset="img/tablet-sobre-mi.png" media="(min-width: 768px)">
+            <img src="img/mobile-imagen-sobre-mi.png" alt="bocetos de diferentes proyectos">
+        </picture>
+
     </section>
     <section class="formulario"> <!-- formulario -->
         <div class="hablemos-de-tu-proyecto"><!-- bloque de textos -->

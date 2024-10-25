@@ -23,7 +23,6 @@
     color: #FFFFFF;
     text-align: center;
 }
-
 /* -------- */
 .redes-formulario {
     display: flex;
@@ -128,7 +127,6 @@
         color: #FFFFFF;
         padding-bottom: 24px;
     }
-    
     /* inputs */
     .bloque-de-inputs {
         align-items: center;
@@ -160,7 +158,6 @@
     }
 }
 
-
 /* todos los elementos desktop 1024 -------------------------------------------------------------------*/
 @media (min-width: 1024px){
     .formulario{
@@ -188,7 +185,6 @@
         width: 419px;
         font-size: 20px;
         text-align: left;
-        
     }
     /* titulo */
     .hablemos-de-tu-proyecto h2 {
@@ -205,18 +201,21 @@
         margin-top:64px;
     }
     /* contenedor-estamos-en-contacto */
-    .contenedor-estamos-en-contacto {
-        display: flex;
-        flex-direction: column;
+    .contenedor-estamos-en-contacto h2 {
+        font-weight: 600;
+        font-size: 32px;
+        text-align: left;
+        margin: 0;
+        color: #FFFFFF;
+    }
+    .titulo-bloque-de-input h2 {
+        color: #FFFFFF;
+        font-size: 32px;
+        text-align: left;
         align-items: flex-start;
         padding-top: 0px;
+        margin: 0;
     }
-    .titulo-bloque-de-inputs h2 {
-        color: #FFFFFF;
-        padding-bottom: 32px;
-        text-align: left;
-    }
-    
     /* inputs */
     .bloque-de-inputs {
         align-items: center;
@@ -243,7 +242,6 @@
         height: 48px;
         width: 444px;
     }
-
     .boton-submit{
         width: 190px;
     }

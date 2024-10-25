@@ -1,17 +1,82 @@
 /* elementos sobre-mi */
-.sobre-mi{
+.sobre-mi {
     background-color: #32AA9D;
     color: #FFFFFF;
     margin: 0px;
-    padding-right: 120px;
-    padding-left: 120px;
-    padding-top: 52px;
-    padding-bottom: 51px;
-    background-image: url(/img/background-sobre-mi.svg);
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(/img/background-sobre-mi-mobile.svg);
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    height: auto;
+    gap: 24px;
+}
+.sobre-mi h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF27F; 
+    text-align: center; 
+    margin: 0;
+}
+
+/* todos los elementos tablet 768 -------------------------------------------------------------------*/
+@media (min-width: 768px) {
+    .sobre-mi {
+        background-color: #32AA9D;
+        color: #FFFFFF;
+        margin: 0px;
+        padding-right: 62px;
+        padding-left: 62px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: url(/img/background-sobre-mi-tablet.svg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .sobre-mi h2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFF27F; 
+        text-align: left; 
+        margin: 0;
+    }
+    .sobre-mi h4 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff; 
+        text-align: left;
+        margin: 0;
+    }
+}
+
+/* todos los elementos desktop 1024 -------------------------------------------------------------------*/
+@media (min-width: 1024px){
+    .sobre-mi{
+        background-color: #32AA9D;
+        color: #FFFFFF;
+        margin: 0px;
+        padding-right: 84px;
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-image: url(/img/background-sobre-mi-desktop.svg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
 }
