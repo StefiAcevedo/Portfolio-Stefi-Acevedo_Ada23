@@ -1,9 +1,16 @@
 /* elementos nav */
 
-
-.logo img { /* Logo siempre visible */
-    height: 32px; 
+.logoNav img { /* Logo del nav en mobile */
+    width: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
 }
+.nav {
+    display: none;
+}
+
+
 
 
 
