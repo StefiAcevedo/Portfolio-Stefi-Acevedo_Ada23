@@ -10,10 +10,6 @@
     display: none;
 }
 
-
-
-
-
 /* todos los elementos tablet 768 -------------------------------------------------------------------*/
 @media (min-width: 768px) {
     nav{ 
@@ -21,8 +17,8 @@
         background-color: #FFFFFF;
         padding-top: 21px;
         padding-bottom: 21px;
-        padding-right: 120px;
-        padding-left: 120px;
+        padding-right: 60px;
+        padding-left: 60px;
         display: flex;
         align-items: center;
         justify-content: space-between;
