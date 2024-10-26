@@ -6,6 +6,7 @@
 @import url(/styles/sobre-mi.css);
 @import url(/styles/formulario.css);
 @import url(/styles/footer.css);
+@import url(/styles/cards.css);
 
 html {
     scroll-behavior: smooth;
