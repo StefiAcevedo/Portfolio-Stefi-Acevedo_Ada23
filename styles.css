@@ -64,7 +64,7 @@ h1 {
 h2 {
     font-weight: 400;
     margin: 0;
-    font-size: 24px; /* Tamaño de fuente para móvil */
+    font-size: 24px; /* Tamaño de fuente para mobile, 32 para desktop y tablet */
 }
 h3 {
     font-weight: 200;

@@ -1,22 +1,28 @@
 /* elementos proceso de diseño */
-.proceso-de-diseño{
-    background-color: #F8F8F8;
+
+.proceso-de-diseño {
+    background-color: #FFFFFF;
+    color: #212121;
     margin: 0px;
-    padding-right: 260px;
-    padding-left: 120px;
-    padding-top: 86px;
-    padding-bottom: 86px;
-    background-image: url(/img/proceso-de-diseño-background.svg);
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(/img/backgrounsMisProyectosMobile.svg);
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    height: auto;
+    gap: 40px;
 }
-.titulos-proceso-de-diseño {
-    font-weight: 400;
-    display: flex;
-    gap: 8px;
-    justify-content: left;
+.proceso-de-diseño h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ED325F; 
+    text-align: center; 
+    margin: 0;
 }
+

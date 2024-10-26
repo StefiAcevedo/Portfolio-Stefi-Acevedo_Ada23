@@ -1,16 +1,28 @@
 /* elementos mis-proyectos */
-.mis-proyectos{
+
+.mis-proyectos {
     background-color: #25086C;
     color: #FFFFFF;
-    padding-right: 180px;
-    padding-left: 120px;
-    padding-top: 86px;
-    padding-bottom: 85px;
-    background-image: url(/img/mis-proyectos-background.svg);
+    margin: 0px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(/img/backgrounsMisProyectosMobile.svg);
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    height: auto;
+    gap: 40px;
 }
+.mis-proyectos h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF27F; 
+    text-align: center; 
+    margin: 0;
+}
+
