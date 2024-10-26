@@ -28,10 +28,64 @@
 
 /* todos los elementos tablet 768 -------------------------------------------------------------------*/
 @media (min-width: 768px) {
-    
+    .mis-proyectos {
+        background-color: #25086C;
+        color: #FFFFFF;
+        margin: 0px;
+        padding-right: 62px;
+        padding-left: 62px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: url(/img/backgroundMisProyectosTablet.svg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+    .mis-proyectos h2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFF27F; 
+        text-align: left; 
+        margin: 0;
+    }
+    .mis-proyectos h4 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff; 
+        text-align: left;
+        margin: 0;
+    }
+    .mis-proyectos p {
+        width: 335px;
+        font-size: 20px;
+    }
 }
 
 /* todos los elementos desktop 1024 -------------------------------------------------------------------*/
 @media (min-width: 1024px){
-    
+    .mis-proyectos{
+        background-color: #25086C;
+        color: #FFFFFF;
+        margin: 0px;
+        padding-right: 84px;
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-image: url(/img/backgroundMisProyectos.svg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    .mis-proyectos p {
+        width: 400px;
+        font-size: 20px
+    }
 }
