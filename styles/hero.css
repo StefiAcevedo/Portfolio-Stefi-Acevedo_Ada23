@@ -1,21 +1,19 @@
 /* elementos hero */
 .hero{
     color:#FFFFFF ;
-    padding-right: 120px;
-    padding-left: 120px;
-    padding-top: 183px;
-    padding-bottom: 183px;
-    background-image: url(/img/slider\ inicio\ ok.png);
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    margin: 0;
+    background-image: url(/img/backgroundSliderMobile.png);
     background-position: center;
     background-size: cover;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     width: 100%;
 }
-.textos-hero{ /* esta ok esto? quería darle una diferencia entre el texto y el botón */
-    margin: 0;
-    padding-bottom: 32px;
-}
+
 .boton-hero{
     background-color: #ED325F;
     font-size: 20px;
@@ -26,4 +24,31 @@
     border-radius: 16px;
     border-color: #ED325F;
     color:#FFFFFF
+}
+.hero h3 {
+    font-size: 24px;
+    font-weight: 200;
+    color: #ffffff; 
+    text-align: left; 
+    margin: 0;
+}
+.hero h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff; 
+    text-align: left; 
+    margin: 0;
+    margin-right: 16px;
+    padding-bottom: 42px;
+}
+
+
+/* todos los elementos tablet 768 -------------------------------------------------------------------*/
+@media (min-width: 768px) {
+    
+}
+
+/* todos los elementos desktop 1024 -------------------------------------------------------------------*/
+@media (min-width: 1024px){
+    
 }
