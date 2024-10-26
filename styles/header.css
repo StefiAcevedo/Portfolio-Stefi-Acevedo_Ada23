@@ -1,30 +1,71 @@
 /* elementos nav */
 
-/* elementos nav */
-nav{ 
-    color: #212121;
-    background-color: #FFFFFF;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    padding-right: 120px;
-    padding-left: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.logo img { /* Logo siempre visible */
+    height: 32px; 
 }
-nav ul { /* esto lo fui solucionando armando dif clases, no se si esta ok*/
-    margin: 0;
+
+
+
+/* todos los elementos tablet 768 -------------------------------------------------------------------*/
+@media (min-width: 768px) {
+    nav{ 
+        color: #212121;
+        background-color: #FFFFFF;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-right: 120px;
+        padding-left: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul { /* esto lo fui solucionando armando dif clases, no se si esta ok*/
+        margin: 0;
+    }
+    nav li{
+        display: inline-block;
+        margin: 24px;
+        padding: 0;
+    }
+    nav a{
+        color: #212121;
+        text-decoration: none;
+    }
+    nav a:hover{ 
+        color: #ED325F;
+        text-decoration: none;
+    }
 }
-nav li{
-    display: inline-block;
-    margin: 24px;
-    padding: 0;
-}
-nav a{
-    color: #212121;
-    text-decoration: none;
-}
-nav a:hover{ 
-    color: #ED325F;
-    text-decoration: none;
+
+/* todos los elementos desktop 1024 -------------------------------------------------------------------*/
+@media (min-width: 1024px){
+    nav{ 
+        color: #212121;
+        background-color: #FFFFFF;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-right: 120px;
+        padding-left: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul { /* esto lo fui solucionando armando dif clases, no se si esta ok*/
+        margin: 0;
+    }
+    nav li{
+        display: inline-block;
+        margin: 24px;
+        padding: 0;
+    }
+    nav a{
+        color: #212121;
+        text-decoration: none;
+    }
+    nav a:hover{ 
+        color: #ED325F;
+        text-decoration: none;
+    }
+    
 }
