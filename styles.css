@@ -54,19 +54,19 @@ body{
 }
 
 /* estilos de texto */
-h1 {
+.h1 {
     font-size: 40px;
     font-weight: 600;
     color: #FFFFFF;
     text-align: left;
     margin: 0;
 }
-h2 {
+.h2 {
     font-weight: 400;
     margin: 0;
     font-size: 24px; /* Tamaño de fuente para mobile, 32 para desktop y tablet */
 }
-h3 {
+.h3 {
     font-weight: 200;
     color: #FFFFFF;
     text-align: left;
@@ -76,6 +76,7 @@ h4 {
     font-weight: 400;
     margin: 0;
 }
+.h5
 .p {
     font-size: 16px;
 }

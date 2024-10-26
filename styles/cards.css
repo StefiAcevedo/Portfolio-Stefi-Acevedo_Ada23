@@ -1,0 +1,19 @@
+/* css cards */
+
+.card {
+    color: #212121;
+    background-color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 24px;
+    border-radius: 16px;
+    border: 2px solid #BFBFBF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chipSubtituloCard {
+    
+}
