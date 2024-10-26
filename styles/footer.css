@@ -57,7 +57,6 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .contacto-footer {
         flex-direction: row;
     }
@@ -77,7 +76,6 @@
         font-size: 24px;
     }
 }
-
 
 /* todos los elementos desktop 1024 */
 @media (min-width: 1024px) { 
