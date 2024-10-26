@@ -79,6 +79,7 @@
     border-color: #25086C;
     color:#FFFFFF;
     width: 288px;
+    box-shadow: 0px 15px 25px -4px #212121(150, 150, 150, 0.25), 0px 15px 25px -4px #212121(150, 150, 150, 0.25);
 }
 
 /* todos los elementos tablet 768-1024 -------------------------------------------------------------------*/
