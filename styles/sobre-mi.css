@@ -7,7 +7,7 @@
     padding-left: 16px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: url(/img/background-sobre-mi-mobile.svg);
+    background-image: url("../img/background-sobre-mi-mobile.svg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -35,7 +35,7 @@
         padding-left: 62px;
         padding-top: 40px;
         padding-bottom: 40px;
-        background-image: url(/img/background-sobre-mi-tablet.svg);
+        background-image: url("../img/background-sobre-mi-tablet.svg");
         background-position: center;
         background-size: cover;
         display: flex;
@@ -75,7 +75,7 @@
         padding-left: 60px;
         padding-top: 60px;
         padding-bottom: 60px;
-        background-image: url(/img/background-sobre-mi-desktop.svg);
+        background-image: url("../img/background-sobre-mi-desktop.svg");
         background-position: center;
         background-size: cover;
         display: flex;

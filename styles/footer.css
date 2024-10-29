@@ -8,7 +8,7 @@
     padding-left: 36px;
     padding-top: 56px;
     padding-bottom: 56px;
-    background-image: url(/img/mobile-background-footer.svg);
+    background-image: url("../img/mobile-background-footer.svg");
     background-position: center;
     background-size: cover;
 }
@@ -56,7 +56,7 @@
         padding-left: 60px;
         padding-top: 48px;
         padding-bottom: 48px;
-        background-image: url(/img/background-footer.svg);
+        background-image: url("../img/background-footer.svg");
         background-position: center;
         background-size: cover;
         display: flex;

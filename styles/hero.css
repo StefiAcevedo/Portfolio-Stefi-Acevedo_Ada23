@@ -6,7 +6,7 @@
     padding-top: 96px;
     padding-bottom: 96px;
     margin: 0;
-    background-image: url(/img/backgroundSliderMobile.png);
+    background-image: url("../img/backgroundSliderMobile.png");
     background-position: center;
     background-size: cover;
     align-items: left;
@@ -66,7 +66,7 @@
         padding-top: 96px;
         padding-bottom: 96px;
         margin: 0;
-        background-image: url(/img/backgroundSliderTablet.png);
+        background-image: url("../img/backgroundSliderTablet.png");
         background-position: center;
         background-size: cover;
         align-items: left;
@@ -115,7 +115,7 @@
         padding-top: 183px;
         padding-bottom: 183px;
         margin: 0;
-        background-image: url(/img/backgroundSliderDesktop.png);
+        background-image: url("../img/backgroundSliderDesktop.png");
         background-position: center;
         background-size: cover;
         align-items: left;
