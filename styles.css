@@ -7,7 +7,6 @@
 @import url("./styles/formulario.css");
 @import url("./styles/footer.css");
 @import url("./styles/cards.css");
-@import url(".normalize.css");
 
 html {
     scroll-behavior: smooth;
