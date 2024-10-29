@@ -1,13 +1,13 @@
 /* css secciones */
-@import url(/styles/header.css);
-@import url(/styles/hero.css);
-@import url(/styles/mi-proceso-de-diseño.css);
-@import url(/styles/mis-proyectos.css);
-@import url(/styles/sobre-mi.css);
-@import url(/styles/formulario.css);
-@import url(/styles/footer.css);
-@import url(/styles/cards.css);
-@import url(normalize.css);
+@import url("/styles/header.css");
+@import url("/styles/hero.css");
+@import url("/styles/mi-proceso-de-diseño.css");
+@import url("/styles/mis-proyectos.css");
+@import url("/styles/sobre-mi.css");
+@import url("/styles/formulario.css");
+@import url("/styles/footer.css");
+@import url("/styles/cards.css");
+@import url("normalize.css");
 
 html {
     scroll-behavior: smooth;
